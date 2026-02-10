@@ -28,7 +28,7 @@
 
 2. 仓库 -> Settings -> Secrets -> New repository secret, 添加Secrets变量如下:
 
-   | Name | Value | Required |
+   | Name | Value | Required  |
    | --- | --- | --- |
    | COOKIE | 掘金网站Cookie  | 是 |
    | COOKIE_2 | 多用户, 当需要同时运行多个掘金用户时所需, 支持最多 **5** 名用户(即COOKIE + COOKIE_2 - COOKIE_5)  | 否 |
